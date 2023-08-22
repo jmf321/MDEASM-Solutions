@@ -8,6 +8,8 @@ from azure.identity import ClientSecretCredential
 import datetime
 import sys
 
+
+# Add your credentials here -----------------------------------------------
 # App Client ID
 client_id = ''
 # App Client secret
@@ -22,6 +24,7 @@ resource_group = ''
 region = ''
 # Name of EASM resource
 workspace_name = ''
+# -------------------------------------------------------------------------
 
 
 def authentication():
